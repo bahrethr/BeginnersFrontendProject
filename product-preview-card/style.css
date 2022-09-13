@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    font-family: 'Fraunces',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-color: hsl(30, 38%, 92%);
+    margin:0;
+    padding: 0;
+   
+}
+
+
+.container{
+    display: flex;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+
+}
+
+.container img{
+    
+    width: 374.5px;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    
+}
+
+
+.left-pan{
+    background-color: hsl(0, 0%, 100%);
+    padding: 52px 110px;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+    padding-left: 50px;
+    padding-top: 0;
+    padding-right: 75px;
+  
+   
+}
+
+
+.left-pan h5{
+    font-family: 'Montserrat';
+    letter-spacing: 10px;
+    font-weight: 500;
+    font-size: .75rem;
+    color: hsl(228, 12%, 48%);
+    transform: scale(1, .90);
+    margin-bottom: 5px;
+    margin-top: 40px;
+
+}   
+
+.left-pan h1{
+   font-weight: 600;
+   font-size: 2.5rem;
+   
+  
+}
+
+.text{
+    width: 260px;
+    height: 450px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
+    line-height: 30px;
+    text-align:start;
+}
+
+
+
+.left-pan a{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    border-width: 4px;
+    border-style:solid;
+    border-color:hsl(158, 36%, 37%);
+    padding: 12px 67px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 9px;
+   
+}
+
+.left-pan a:hover{
+    background-color: hsl(157, 88%, 9%);
+    color:  hsl(0, 0%, 100%);
+    border-color:hsl(157, 88%, 9%);
+   
+}
+.left-pan a i{
+        margin-right: 8px;
+}
+
+.price{
+    display: flex;
+    width: 200px;
+    height: 55px;
+    align-items: center;
+
+}
+
+.price .offer{
+    font-family: 'Fraunces',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 20px;
+}
+
+.price .mPrice{
+    text-decoration: line-through;
+    opacity: 80%;
+}
+
+.credit{
+   margin-left: 400px;
+   font-size: 12px;
+   text-decoration: none;
+    
+}
+
