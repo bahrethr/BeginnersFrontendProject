@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&family=Open+Sans:ital,wght@0,300;0,500;1,300&display=swap');
+
+*{
+    font-family:'Montserrat',sans-serif;
+
+}
+
+body{
+   
+    background-color: #ffffff;
+    margin:0;
+    padding: 0;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header .container{
+
+    background-color: rgba(245,245,245,255);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+}
+
+.container img{
+    height: 658px;
+    margin-right: 180px;
+   
+}
+
+
+.AboutUs{
+    margin:90px 0 0 150px;
+   
+}
+
+.AboutUs h1{
+    font-size: 26px;
+    font-weight: 300;
+
+} 
+
+.AboutUs h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+
+.AboutUs ul{
+    font-family:  'Open Sans';
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0;
+    margin-bottom: 50px;
+   
+}
+.AboutUs ul li:before{
+    content: '✓';
+    margin-right: 5px;
+}
+.AboutUs li{
+    margin: 10px;
+}
+
+
+
+/* button-start*/
+ .button{
+    text-decoration: none;
+    border-style: none;
+    padding: 18px 28px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    background-color: #111111;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #111111d2;
+}
+/* button-End */
+
+
+
+/* green-part...Start */
+.green-container{
+    background-color: #537459;
+    display: flex;
+    justify-content: center;
+
+}
+/* cards style */
+.card{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+    background-color: #ffffff;
+    margin: 70px 10px 70px 20px;
+    width: 265px;
+    height: 345px;
+    border-radius: 5%;
+
+}
+
+
+
+.icon{
+   margin-top: 30px;
+    background-color: #E0E5EB;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.icon .light {
+    padding-left: 18px;
+}
+
+.icon i{
+       color: #868484;
+        font-size: 43px;
+        padding-top: 15px;
+        padding-left: 13px;
+}
+
+.card h5{
+    font-family: 'Montserrat';
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+ 
+}
+
+.card p{
+    font-family: 'Open Sans';
+    color: #868484;
+    font-weight: bolder;
+    font-size:1rem;
+    text-align: center;
+    font-style:italic;
+    line-height: 27px;
+    
+}
+
+
+
+.card a{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #111111;
+    border-bottom: 1px solid #111111 ;
+    padding-bottom: 2px;
+   
+   
+}
+
+.card a:hover{
+    border-color: #111111b5;
+}
+
+
