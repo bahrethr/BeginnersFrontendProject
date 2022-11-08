@@ -342,7 +342,7 @@
 
 
     .contact-us {
-        height: 250px;
+        height: auto;
         width:auto;
         flex-direction: column;
         margin-left: 0;
@@ -352,6 +352,8 @@
 
     .contact-us h6{
         margin-bottom: 0;
+        width: 100%;
+       
     }
 
     .contact-us a{
@@ -360,12 +362,20 @@
         margin-left: 200px;
         margin-right: 0;
         margin-bottom: 30px;
+        margin-top:20px
     }
 
     .brand li{
         display: inline-block;
         padding: 0px 20px;
+       
     }
+
+    .brand li img{
+        width: 35px;
+        height: 29px;
+    }
+
 
 
 
