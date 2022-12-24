@@ -1,0 +1,51 @@
+body{
+    background-color: burlywood;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    margin-top: 300px;
+    padding: 15px  20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputElm {
+    padding-left: 10px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: burlywood;
+}
+.box span:first-child{
+    padding-left: 10px;
+    color: burlywood;
+    font-weight: bolder;
+
+}
+.counter{
+    text-align: center;
+    border-left: 2px solid burlywood;
+    padding: 3px 10px;
+    color: burlywood;
+} 
+
+.style{
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+
+h5{
+    text-align: center;
+
+}
